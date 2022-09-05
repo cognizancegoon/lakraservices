@@ -1,10 +1,11 @@
 //import './index.css';
-
+import React from 'react';
+import Header from './components/header';
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-cyan-500">
-      Hesafcasllo world!
-    </h1>
+    <div>
+      <Header></Header>
+    </div>
   );
 }
 
